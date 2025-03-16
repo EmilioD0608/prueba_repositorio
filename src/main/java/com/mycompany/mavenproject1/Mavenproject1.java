@@ -24,6 +24,8 @@ public class Mavenproject1 {
         carrito.agregarProducto(p2);
         carrito.agregarProducto(p3);
         
+        //cambio uno
+        
         carrito.mostrarProductos();
     }
     }
