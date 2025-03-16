@@ -18,6 +18,7 @@ public class Mavenproject1 {
         
         Producto p1 = new Producto("Laptop", 850.50);
         Producto p2 = new Producto("Mouse", 25.75);
+        Producto p3 = new Producto("Teclado", 22.5);
         
         carrito.agregarProducto(p1);
         carrito.agregarProducto(p2);
