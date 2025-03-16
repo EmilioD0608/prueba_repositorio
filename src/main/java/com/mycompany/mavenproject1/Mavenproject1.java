@@ -4,6 +4,9 @@
 
 package com.mycompany.mavenproject1;
 
+import src.modelos.Carrito;
+import src.modelos.Producto;
+
 /**
  *
  * @author e_d_d
@@ -11,6 +14,16 @@ package com.mycompany.mavenproject1;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+           Carrito carrito = new Carrito();
+        
+        Producto p1 = new Producto("Laptop", 850.50);
+        Producto p2 = new Producto("Mouse", 25.75);
+        Producto p3 = new Producto("Teclado", 22.5);
+        
+        carrito.agregarProducto(p1);
+        carrito.agregarProducto(p2);
+        
+        carrito.mostrarProductos();
     }
-}
+    }
+
